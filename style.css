@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.image{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: red;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background: linear-gradient(rgb(219, 146, 9) 40%, rgb(227, 243, 6) 60%) ;
+    display: table;
+    height: 100%;
+    width: 100%;
+
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.line{
+    height: 6px;
+    background-color: seagreen;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    font-size: 20px;
+    color: rgb(235, 12, 12);
+    font-family: monospace;
+}
+.name{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.links{
+    color: rgb(13, 130, 184);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover{
+    background-color: rgb(231, 190, 114);
+    font-size: 25px;
+    text-decoration: underline;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: rgb(5, 222, 230);
+    width: 100%;
+    margin-top: 0;
+}
+.a{
+    text-decoration: none;
+}
+img{
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+html{
+    scroll-behavior: smooth;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
